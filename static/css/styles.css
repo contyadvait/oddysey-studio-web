@@ -1,0 +1,63 @@
+@font-face{
+    font-family: header;
+    src: url('Regular.woff');
+}
+
+body, html {
+    margin: 0;
+    text-align: center;
+	background-color: white;
+}
+h2 {
+	font-family: header;
+	text-align: center;
+}
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+h1 {
+	font-family: Header, 'Comic Sans MS';
+}
+table, td, th {
+    border: 2px solid black;
+}
+p1{
+	font-family: Regular, 'Comic Sans MS';
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+     width: 70%;
+}
+button {
+    text-size-adjust: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid #af4c4c;
+    padding: 14px 40px;
+    transition-duration: 0.4s;
+    font-family: trial, Arial; 
+    align-self: center;
+}
+button:hover {
+    background-color: #af4c4c; /* Green */
+    color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

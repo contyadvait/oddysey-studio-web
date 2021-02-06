@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <img src="{{ url_for('static', filename='./images/oddysey.png') }}" align="middle" height=263.5 width=500.5>
+	<h1>Oddysey Studios</h1>
+	<h2>Download our apps!</h2>
+	<a href="{{ url_for('static', filename='./downloads/minecraft-classic-oddysey-download.exe') }}"><button>Minecraft Classic</button></a>
+	<a href="{{ url_for('static', filename='./downloads/pong-setup.exe') }}"><button>Pong</button></a>
+{% endblock %}

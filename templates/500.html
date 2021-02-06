@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Page Not Found{% endblock %}
+{% block body %}
+  <h1>To many people on server</h1>
+  <p>Click the button below after a few minutes</p>
+  <button><a href="{{ url_for('index') }}">Back to Homepage</a></button>
+{% endblock %}
